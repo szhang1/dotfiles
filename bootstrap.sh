@@ -8,6 +8,7 @@ function doIt() {
         # not install files for OS X (20160101)
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
               --exclude ".osx" --exclude "brew.sh" \
+              --exclude "liquidprompt/" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
 	source ~/.bash_profile;
 }

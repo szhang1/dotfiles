@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Ref: https://github.com/nojhan/liquidprompt
+
+SCRIPT_DIR=$(dirname $0)
+
+# echo "# Only load Liquid Prompt in interactive shells, not from a script or from scp" >> ~/.bashrc
+# echo "[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt" >> ~/.bashrc
+echo "" >> ~/.bash_profile
+echo "# Only load Liquid Prompt in interactive shells, not from a script or from scp" >> ~/.bash_profile
+cp ${SCRIPT_DIR}/liquidprompt ~/.liquidprompt
+echo "[[ \$- = *i* ]] && source ~/.liquidprompt" >> ~/.bash_profile
+
+mkdir -p ~/.config && cp ${SCRIPT_DIR}/liquidpromptrc-dist ~/.config/liquidpromptrc
