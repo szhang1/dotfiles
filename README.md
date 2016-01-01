@@ -1,3 +1,7 @@
+- nojhan/liquidprompt
+![Screenshot of nojhan/liquidprompt](https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67)
+
+----
 # Mathias’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
