@@ -8,9 +8,11 @@ cd dotfiles
 liquidprompt/install_after_source
 ```
 
-# Snapshot
+# Introduction
 
-- [nojhan/liquidprompt](https://github.com/nojhan/liquidprompt)
+This dotfiles is forked from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles), and added with [nojhan/liquidprompt](https://github.com/nojhan/liquidprompt). In addition, some customizations in accordance with my habits are preparing to be added in future.
+
+- Snapshot ([nojhan/liquidprompt](https://github.com/nojhan/liquidprompt))
 
 ![Screenshot of nojhan/liquidprompt](https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67)
 
